@@ -1,5 +1,0 @@
-.exit
-const tx = await ethers.provider.getTransaction("0tx
-.exit
-npx hardhat console --network localhost
-exit
