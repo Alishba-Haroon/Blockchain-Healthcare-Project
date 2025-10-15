@@ -132,7 +132,7 @@ npm start
 
 ---
 
-<h2 align="center" style="color:white; background:black; padding:10px; border-radius:8px;">
+
 🤝 Contributing</h2> <div align="center" style="background:black; color:white; padding:15px; border-radius:8px;">
 
 Contributions are welcome! Follow these steps:
