@@ -19,38 +19,73 @@ It ensures **secure, transparent, and tamper-proof** sharing of patient medical 
 ## 🗂️ Project Structure
 
 ---
+
 MediNexus-Healthcare-Blockchain/
-│
-├── backend/ # Flask backend API
-│ ├── app.py # Main Flask app
-│ ├── requirements.txt # Python dependencies
-│ ├── services/ # Blockchain & IPFS logic
-│ │ ├── blockchain_service.py # Smart contract integration (Web3.py)
-│ │ ├── ipfs_service.py # IPFS upload/retrieve
-│ │ └── utils.py # Helper functions
-│ ├── blockchain/ # Contract files & artifacts
-│ │ ├── contracts/
-│ │ │ └── MediNexus.sol # Solidity smart contract
-│ │ └── artifacts/ # Compiled ABI & bytecode
-│ └── data/
-│ └── sample_records.json # Sample data for testing
-│
-├── frontend/ # React.js frontend
-│ ├── src/
-│ │ ├── components/ # UI Components
-│ │ ├── pages/ # Page views (Home, Dashboard, Records)
-│ │ ├── services/ # API connections to Flask backend
-│ │ ├── App.js
-│ │ └── index.js
-│ ├── public/
-│ │ └── index.html
-│ └── package.json # Frontend dependencies
-│
-├── blockchain/ # Optional (Truffle / Hardhat setup)
-│ └── scripts/ # Deployment or testing scripts
-│
-├── README.md # Project documentation
-└── LICENSE # MIT License
+├── backend/                          # Flask backend API
+│   ├── app.py                       # Main Flask application
+│   ├── config.py                    # Configuration settings
+│   ├── requirements.txt             # Python dependencies
+│   ├── services/                    # Business logic services
+│   │   ├── blockchain_service.py    # Smart contract integration (Web3.py)
+│   │   ├── ipfs_service.py          # IPFS upload/retrieve operations
+│   │   └── utils.py                 # Helper functions and utilities
+│   ├── models/                      # Data models
+│   │   └── models.py                # Database models
+│   ├── routes/                      # API routes
+│   │   └── api.py                   # API endpoint definitions
+│   ├── blockchain/                  # Blockchain related files
+│   │   ├── contracts/               # Smart contracts
+│   │   │   └── MediNexus.sol        # Main Solidity smart contract
+│   │   └── artifacts/               # Compiled contract artifacts
+│   │       ├── abi.json            # Contract ABI
+│   │       └── bytecode.txt        # Compiled bytecode
+│   └── data/                        # Sample data
+│       └── sample_records.json      # Sample healthcare records for testing
+├── frontend/                        # React.js frontend application
+│   ├── src/
+│   │   ├── components/              # Reusable UI components
+│   │   │   ├── common/              # Common components
+│   │   │   ├── forms/               # Form components
+│   │   │   └── layout/              # Layout components
+│   │   ├── pages/                   # Page components
+│   │   │   ├── Home.js              # Home page
+│   │   │   ├── Dashboard.js         # User dashboard
+│   │   │   ├── Records.js           # Medical records page
+│   │   │   └── Profile.js           # User profile page
+│   │   ├── services/                # API service layer
+│   │   │   ├── api.js               # Backend API calls
+│   │   │   └── auth.js              # Authentication services
+│   │   ├── context/                 # React context for state management
+│   │   ├── utils/                   # Frontend utilities
+│   │   ├── App.js                   # Main App component
+│   │   ├── App.css                  # App styles
+│   │   └── index.js                 # Application entry point
+│   ├── public/
+│   │   ├── index.html               # Main HTML template
+│   │   ├── favicon.ico              # Site favicon
+│   │   └── manifest.json            # PWA manifest
+│   ├── package.json                 # Frontend dependencies
+│   └── package-lock.json            # Dependency lock file
+├── blockchain/                      # Blockchain development setup
+│   ├── contracts/                   # Smart contracts
+│   │   └── MediNexus.sol            # Main contract (duplicate or linked)
+│   ├── scripts/                     # Deployment and utility scripts
+│   │   ├── deploy.js                # Contract deployment script
+│   │   └── test.js                  # Contract testing script
+│   ├── migrations/                  # Migration files
+│   ├── test/                        # Smart contract tests
+│   │   └── MediNexus.test.js        # Contract test cases
+│   └── hardhat.config.js            # Hardhat configuration
+├── docs/                            # Project documentation
+│   ├── setup.md                     # Setup instructions
+│   ├── api.md                       # API documentation
+│   └── deployment.md                # Deployment guide
+├── tests/                           # Test files
+│   ├── backend_tests/               # Backend tests
+│   └── frontend_tests/              # Frontend tests
+├── .gitignore                       # Git ignore rules
+├── README.md                        # Project documentation
+└── LICENSE                          # MIT License
 
 ---
 
