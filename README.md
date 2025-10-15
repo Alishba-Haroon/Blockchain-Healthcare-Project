@@ -138,10 +138,6 @@ npm start
 Contributions are always welcome! 🙌  
 
 
-1️⃣ **Fork** this repository  
-
-2️⃣ **Create a new branch** for your feature or fix:
-
 ---
 
 
