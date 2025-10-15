@@ -136,30 +136,14 @@ npm start
 ## 🤝 Contributing
 
 Contributions are always welcome! 🙌  
-If you'd like to improve **MediNexus**, follow the steps below:
 
----
-
-### 🛠️ Steps to Contribute
 
 1️⃣ **Fork** this repository  
 
 2️⃣ **Create a new branch** for your feature or fix:
 
-```bash
-git checkout -b feature-name
-3️⃣ Commit and push your changes:
-
-bash
-Copy code
-git commit -m "Add new feature"
-git push origin feature-name
-4️⃣ Submit a Pull Request
-Clearly describe your changes and why they improve the project.
-
-
-
 ---
+
 
 ## 📜 License
 
