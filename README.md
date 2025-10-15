@@ -133,25 +133,31 @@ npm start
 ---
 
 
-🤝 Contributing</h2> <div align="center" style="background:black; color:white; padding:15px; border-radius:8px;">
+## 🤝 Contributing
 
-Contributions are welcome! Follow these steps:
+Contributions are always welcome! 🙌  
+If you'd like to improve **MediNexus**, follow the steps below:
 
-1️⃣ Fork this repository
-2️⃣ Create a feature branch:
+---
 
+### 🛠️ Steps to Contribute
+
+1️⃣ **Fork** this repository  
+
+2️⃣ **Create a new branch** for your feature or fix:
+
+```bash
 git checkout -b feature-name
-
-
 3️⃣ Commit and push your changes:
 
+bash
+Copy code
 git commit -m "Add new feature"
 git push origin feature-name
+4️⃣ Submit a Pull Request
+Clearly describe your changes and why they improve the project.
 
 
-4️⃣ Submit a Pull Request with a clear description of your improvement.
-
-</div>
 
 ---
 
