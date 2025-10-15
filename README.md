@@ -18,6 +18,7 @@ It ensures **secure, transparent, and tamper-proof** sharing of patient medical 
 
 ## 🗂️ Project Structure
 
+---
 MediNexus-Healthcare-Blockchain/
 │
 ├── backend/ # Flask backend API
