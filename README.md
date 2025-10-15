@@ -48,8 +48,7 @@ MediNexus-Healthcare-Blockchain/
 ├── blockchain/ # Optional (Truffle / Hardhat setup)
 │ └── scripts/ # Deployment or testing scripts
 │
-├── README.md
-
+├── README.md # Project documentation
 
 ---
 
@@ -95,11 +94,8 @@ npm start
 📊 Example Workflow
 
 Patient registers and uploads a medical report.
-
 File is stored on IPFS, and its hash is stored on Ethereum.
-
 Doctor requests access → Smart contract validates permission.
-
 Verified record is displayed on the React dashboard.
 
 🔮 Future Enhancements
@@ -119,5 +115,3 @@ Submit a Pull Request with a clear description
 📜 License
 
 This project is licensed under the MIT License.
-See the LICENSE
- file for details.
