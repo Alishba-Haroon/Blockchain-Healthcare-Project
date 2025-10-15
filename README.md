@@ -6,25 +6,25 @@ It ensures **secure, transparent, and tamper-proof** sharing of patient medical 
 ---
 
 <p align="center">
-  <br/>
   <b>🏥 Main Interface</b>
-  <img src="https://github.com/Alishba-Haroon/Blockchain-Healthcare-Project/blob/main/MediChain/frontend/public/MediNexus.jpg" alt="Main Interface" width="800"/>
+  <img src="https://github.com/Alishba-Haroon/Blockchain-Healthcare-Project/blob/main/MediChain/frontend/public/MediNexus.jpg" alt="Main Interface" width="700"/>
+    <br/>
 </p>
 
 ---
 
 <p align="center">
-  <br/>
   <b>📊 Output View</b>
-  <img src="https://github.com/Alishba-Haroon/Blockchain-Healthcare-Project/blob/main/MediChain/frontend/public/Output%20(3).png" alt="Output View" width="800"/>
+  <img src="https://github.com/Alishba-Haroon/Blockchain-Healthcare-Project/blob/main/MediChain/frontend/public/Output%20(3).png" alt="Output View" width="700"/>
+  <br/>
 </p>
 
 ---
 
 <p align="center">
-  <br/>
   <b>🌐 Background Design</b>
-  <img src="https://github.com/Alishba-Haroon/Blockchain-Healthcare-Project/blob/main/MediChain/frontend/public/background.png" alt="Background Design" width="800"/>
+  <img src="https://github.com/Alishba-Haroon/Blockchain-Healthcare-Project/blob/main/MediChain/frontend/public/background.png" alt="Background Design" width="700"/>
+  <br/>
 </p>
 
 ---
