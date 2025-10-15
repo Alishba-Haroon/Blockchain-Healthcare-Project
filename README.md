@@ -49,6 +49,7 @@ MediNexus-Healthcare-Blockchain/
 │ └── scripts/ # Deployment or testing scripts
 │
 ├── README.md # Project documentation
+└── LICENSE # MIT License
 
 ---
 
