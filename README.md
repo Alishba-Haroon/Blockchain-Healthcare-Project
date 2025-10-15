@@ -5,6 +5,31 @@ It ensures **secure, transparent, and tamper-proof** sharing of patient medical 
 
 ---
 
+<p align="center">
+  <br/>
+  <b>🏥 Main Interface</b>
+  <img src="https://github.com/Alishba-Haroon/Blockchain-Healthcare-Project/blob/main/MediChain/frontend/public/MediNexus.jpg" alt="Main Interface" width="800"/>
+</p>
+
+---
+
+<p align="center">
+  <br/>
+  <b>📊 Output View</b>
+  <img src="https://github.com/Alishba-Haroon/Blockchain-Healthcare-Project/blob/main/MediChain/frontend/public/Output%20(3).png" alt="Output View" width="800"/>
+</p>
+
+---
+
+<p align="center">
+  <br/>
+  <b>🌐 Background Design</b>
+  <img src="https://github.com/Alishba-Haroon/Blockchain-Healthcare-Project/blob/main/MediChain/frontend/public/background.png" alt="Background Design" width="800"/>
+</p>
+
+---
+
+
 ## 🧩 Key Features
 
 - 🔐 **Decentralized Storage** — Medical records stored on IPFS for immutability and transparency.  
@@ -103,27 +128,6 @@ npm start
 
 ---
 
-<p align="center">
-  <img src="https://github.com/Alishba-Haroon/Blockchain-Healthcare-Project/blob/main/MediChain/frontend/public/MediNexus.jpg" alt="Main Interface" width="800"/>
-  <br/>
-  <b>🏥 Main Interface</b>
-</p>
-
----
-
-<p align="center">
-  <img src="https://github.com/Alishba-Haroon/Blockchain-Healthcare-Project/blob/main/MediChain/frontend/public/Output%20(3).png" alt="Output View" width="800"/>
-  <br/>
-  <b>📊 Output View</b>
-</p>
-
----
-
-<p align="center">
-  <img src="https://github.com/Alishba-Haroon/Blockchain-Healthcare-Project/blob/main/MediChain/frontend/public/background.png" alt="Background Design" width="800"/>
-  <br/>
-  <b>🌐 Background Design</b>
-</p>
 
 ## 🧠 How It Works
 
