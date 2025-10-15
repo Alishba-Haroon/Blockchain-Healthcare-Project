@@ -68,7 +68,6 @@ MediNexus-Healthcare-Blockchain/
 ├── README.md                         # Project documentation
 └── LICENSE                           # MIT License
 ````
-
 ---
 
 ## 🚀 Installation & Setup
@@ -103,6 +102,28 @@ npm start
 ```
 
 ---
+
+<p align="center">
+  <img src="https://github.com/Alishba-Haroon/Blockchain-Healthcare-Project/blob/main/MediChain/frontend/public/MediNexus.jpg" alt="Main Interface" width="800"/>
+  <br/>
+  <b>🏥 Main Interface</b>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://github.com/Alishba-Haroon/Blockchain-Healthcare-Project/blob/main/MediChain/frontend/public/Output%20(3).png" alt="Output View" width="800"/>
+  <br/>
+  <b>📊 Output View</b>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://github.com/Alishba-Haroon/Blockchain-Healthcare-Project/blob/main/MediChain/frontend/public/background.png" alt="Background Design" width="800"/>
+  <br/>
+  <b>🌐 Background Design</b>
+</p>
 
 ## 🧠 How It Works
 
