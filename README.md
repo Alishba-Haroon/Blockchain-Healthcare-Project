@@ -132,27 +132,26 @@ npm start
 
 ---
 
-<div align="center" style="background:black; color:white; padding:15px; border-radius:8px;">
+<h2 align="center" style="color:white; background:black; padding:10px; border-radius:8px;">
+🤝 Contributing</h2> <div align="center" style="background:black; color:white; padding:15px; border-radius:8px;">
 
 Contributions are welcome! Follow these steps:
-<div align="center">
 
-### 🛠️ Contributing Steps
+1️⃣ Fork this repository
+2️⃣ Create a feature branch:
 
-1️⃣ **Fork** this repository  
-2️⃣ **Create a feature branch:**
-
-```bash
 git checkout -b feature-name
+
+
 3️⃣ Commit and push your changes:
 
-bash
-Copy code
 git commit -m "Add new feature"
 git push origin feature-name
+
+
 4️⃣ Submit a Pull Request with a clear description of your improvement.
 
-</div> ```
+</div>
 
 ---
 
