@@ -7,7 +7,6 @@ describe("MediChain", function () {
     await medichain.waitForDeployment();
 
     await medichain.addPatient("Ali", 25, "A+", "Flu");
-
     const patient = await medichain.getPatient(0);
 
     expect(patient.name).to.equal("Ali");
