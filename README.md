@@ -45,13 +45,6 @@ It ensures **secure, transparent, and tamper-proof** sharing of patient medical 
 MediNexus-Healthcare-Blockchain/
 ├── backend/                          # Flask backend API
 │   ├── app.py                        # Main Flask application
-│   ├── requirements.txt              # Python dependencies
-│   ├── services/                     # Business logic services
-│   │   ├── blockchain_service.py     # Smart contract integration (Web3.py)
-│   │   ├── ipfs_service.py           # IPFS upload/retrieve operations
-│   └── data/                         # Sample data
-│       └── sample_records.json       # Sample healthcare records for testing
-│
 ├── frontend/                         # React.js frontend application
 │   ├── src/
 │   │   ├── components/               # Reusable UI components
@@ -60,7 +53,6 @@ MediNexus-Healthcare-Blockchain/
 │   │   │   └── UploadRecord.css      # Styling for upload component
 │   │   ├── abi/                      # Compiled contract ABI
 │   │   │   └── MediChain.json
-│   │   ├── utils/                    # Frontend utilities
 │   │   ├── App.js                    # Main App component
 │   │   ├── App.css                   # App styles
 │   │   ├── index.js                  # React entry point
@@ -70,7 +62,6 @@ MediNexus-Healthcare-Blockchain/
 │   │   └── manifest.json             # PWA manifest
 │   ├── package.json                  # Frontend dependencies
 │   └── package-lock.json             # Dependency lock file
-│
 ├── blockchain/                       # Blockchain development setup
 │   ├── contracts/                    # Smart contracts
 │   │   └── MediNexus.sol             # Solidity smart contract
@@ -80,13 +71,9 @@ MediNexus-Healthcare-Blockchain/
 │   ├── migrations/                   # Contract migration files
 │   ├── test/                         # Smart contract test cases
 │   │   └── MediNexus.test.js
-│   ├── hardhat.config.js             # Hardhat configuration
-│   └── deploy.js                     # Alternate deployment script
-│
 ├── tests/                            # Project tests
-│   ├── backend_tests/                # Flask backend tests
+│   ├── MediChainTest.js               # Flask backend tests
 │   └── frontend_tests/               # React frontend tests
-│
 ├── .gitignore                        # Git ignore rules
 ├── README.md                         # Project documentation
 └── LICENSE                           # MIT License
