@@ -1,4 +1,4 @@
-# 🏥 MediNexus: Healthcare Blockchain System
+# MediNexus: Healthcare Blockchain System
 
 **MediNexus** is a decentralized healthcare data management platform built with **Flask (Python backend)**, **React.js frontend**, and **Ethereum Smart Contracts**.  
 It ensures **secure, transparent, and tamper-proof** sharing of patient medical records between patients, doctors, and hospitals using **IPFS** for distributed storage and **blockchain** for access control.
@@ -6,21 +6,21 @@ It ensures **secure, transparent, and tamper-proof** sharing of patient medical 
 ---
 
 <p align="center">
-  <b>🏥 Main Interface</b><br/><br/>
+  <b>Main Interface</b><br/><br/>
   <img src="https://github.com/Alishba-Haroon/Blockchain-Healthcare-Project/blob/main/MediChain/frontend/public/MediNexus.jpg" alt="Main Interface" width="700"/>
 </p>
 
 ---
 
 <p align="center">
-  <b>📊 Output View</b><br/><br/>
+  <b>Output View</b><br/><br/>
   <img src="https://github.com/Alishba-Haroon/Blockchain-Healthcare-Project/blob/main/MediChain/frontend/public/Output%20(3).png" alt="Output View" width="700"/>
 </p>
 
 ---
 
 <p align="center">
-  <b>🌐 Background Design</b><br/><br/>
+  <b>Background Design</b><br/><br/>
   <img src="https://github.com/Alishba-Haroon/Blockchain-Healthcare-Project/blob/main/MediChain/frontend/public/background.png" alt="Background Design" width="700"/>
 </p>
 
@@ -28,18 +28,18 @@ It ensures **secure, transparent, and tamper-proof** sharing of patient medical 
 ---
 
 
-## 🧩 Key Features
+##  Key Features
 
-- 🔐 **Decentralized Storage** — Medical records stored on IPFS for immutability and transparency.  
-- 🧠 **Smart Contract Security** — Ethereum blockchain smart contract enforces data permissions.  
-- ⚙️ **Flask REST API** — Acts as a middleware between frontend and blockchain.  
-- 🖥️ **React Frontend** — Clean dashboard for patients, doctors, and administrators.  
-- 👥 **Role-based Access** — Patients control data visibility and sharing permissions.  
-- 🧾 **Tamper-proof Records** — Data integrity guaranteed via blockchain verification.
+-  **Decentralized Storage** — Medical records stored on IPFS for immutability and transparency.  
+-  **Smart Contract Security** — Ethereum blockchain smart contract enforces data permissions.  
+-  **Flask REST API** — Acts as a middleware between frontend and blockchain.  
+-  **React Frontend** — Clean dashboard for patients, doctors, and administrators.  
+-  **Role-based Access** — Patients control data visibility and sharing permissions.  
+-  **Tamper-proof Records** — Data integrity guaranteed via blockchain verification.
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```bash
 MediNexus-Healthcare-Blockchain/
@@ -80,9 +80,9 @@ MediNexus-Healthcare-Blockchain/
 ````
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
-### 1️⃣ Clone Repository
+###  Clone Repository
 
 ```bash
 git clone https://github.com/YourUsername/MediNexus-Healthcare-Blockchain.git
@@ -91,7 +91,7 @@ cd MediNexus-Healthcare-Blockchain
 
 ---
 
-### 2️⃣ Backend Setup (Flask)
+###  Backend Setup (Flask)
 
 ```bash
 cd backend
@@ -103,7 +103,7 @@ python app.py
 
 ---
 
-### 3️⃣ Frontend Setup (React)
+### Frontend Setup (React)
 
 ```bash
 cd ../frontend
@@ -114,17 +114,17 @@ npm start
 ---
 
 
-## 🧠 How It Works
+##  How It Works
 
-1. 🧾 **Upload Data** — Patient uploads a medical report via the web dashboard.
-2. 🔗 **IPFS Storage** — File stored on IPFS, returning a unique hash.
-3. ⛓️ **Blockchain Recording** — Hash and ownership data saved via smart contract.
-4. 👩‍⚕️ **Access Control** — Only authorized users (validated by blockchain) can access the record.
-5. 💻 **Frontend Display** — React UI fetches and displays verified medical records.
+1.  **Upload Data** — Patient uploads a medical report via the web dashboard.
+2.  **IPFS Storage** — File stored on IPFS, returning a unique hash.
+3.  **Blockchain Recording** — Hash and ownership data saved via smart contract.
+4.  **Access Control** — Only authorized users (validated by blockchain) can access the record.
+5.  **Frontend Display** — React UI fetches and displays verified medical records.
 
 ---
 
-## 📊 Example Workflow
+##  Example Workflow
 
 * Patient registers and uploads a medical report.
 * File is stored on IPFS and its hash recorded on Ethereum.
@@ -133,25 +133,25 @@ npm start
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
-* 🤖 **AI Diagnostic Assistant** for predictive health analysis.
-* 🧾 **Multi-signature admin verification** for hospital data.
-* 🔒 **Encrypted storage** (HIPAA compliance).
-* 🌍 **Multi-chain deployment** (Polygon / Binance Smart Chain).
-
----
-
-
-## 🤝 Contributing
-
-Contributions are always welcome! 🙌  
-
+*  **AI Diagnostic Assistant** for predictive health analysis.
+*  **Multi-signature admin verification** for hospital data.
+*  **Encrypted storage** (HIPAA compliance).
+*  **Multi-chain deployment** (Polygon / Binance Smart Chain).
 
 ---
 
 
-## 📜 License
+##  Contributing
+
+Contributions are always welcome!  
+
+
+---
+
+
+##  License
 
 This project is licensed under the **MIT License**.
 Feel free to use and modify it for educational or research purposes.
